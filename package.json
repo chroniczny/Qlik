@@ -1,0 +1,27 @@
+{
+  "name": "qlik",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "css": "node-sass --include-path scss scss/main.scss css/main.css",
+    "css:watch": "node-sass scss/main.scss css/main.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chroniczny/Qlik.git"
+  },
+  "author": "daga",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^v3.3.7",
+    "node-sass": "4.7.2"
+  },
+  "start": "http-server -a localhost -p 8000 -c-1",
+  "bugs": {
+    "url": "https://github.com/chroniczny/Qlik/issues"
+  },
+  "homepage": "https://github.com/chroniczny/Qlik#readme",
+  "devDependencies": {},
+  "description": ""
+}
