@@ -9,7 +9,8 @@
     <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>-->
     <meta name="HandheldFriendly" content="True">
     <meta name="MobileOptimized" content="320">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <meta http-equiv="cleartype" content="on">
@@ -20,27 +21,41 @@
     <script src="scripts/start2.js"></script>
 </head>
 <body>
-<header class="main-header"><h3>Qlik investor</h3></header>
+<header class="main-header"><h2>Qlik investor</h2></header>
 <main>
-    <h3>WORKS WHEN LOGGED IN "Qlik Sense Desktop"</h3>
+    <h3>WHEN LOGGED IN "Qlik Sense Desktop"</h3>
     <div class="flex-container">
         <div id="QV02" class="qvobject"></div>
         <div id="QV03" class="qvobject"></div>
         <div id="QV04" class="qvobject"></div>
         <div id="QV06" class="qvobject"></div>
     </div>
-    <h3>WORKS INDEPENDENT WITHOUT "Qlik Sense Desktop" - IFRAME FROM "Qlik Sense Cloud"</h3>
-    <iframe width="620" height="515" src="https://charts.qlikcloud.com/5b222289132da6000a6328b7/chart.html" frameborder="0"></iframe>
-    <!--<iframe width="620" height="515" src="https://charts.qlikcloud.com/5b22285c132da6000a6328b8/chart.html" frameborder="0"></iframe>-->
-    <!--<iframe width="620" height="515" src="https://charts.qlikcloud.com/5b22288e132da6000a6328b9/chart.html" frameborder="0"></iframe>-->
-    <!--<iframe width="620" height="515" src="https://charts.qlikcloud.com/5b2229706f473f000fbd321e/chart.html" frameborder="0"></iframe>-->
-    <!--<iframe width="620" height="515" src="https://charts.qlikcloud.com/5b22298ad85b320011fecc5d/chart.html" frameborder="0"></iframe>-->
 </main>
+<section>
+    <h3>Without "Qlik Sense Desktop" - IFRAME FROM "Qlik Sense Cloud"</h3>
+    <iframe width="620" height="515" src="https://charts.qlikcloud.com/5b222289132da6000a6328b7/chart.html"
+            frameborder="0"></iframe>
+    <iframe width="620" height="515" src="https://charts.qlikcloud.com/5b22285c132da6000a6328b8/chart.html"
+            frameborder="0"></iframe>
+
+</section>
+<section>
+    <h3>HighChart: taken from CLOUD</h3>
+    <div id="highcharts-61a67430-150c-47ba-b6bb-0f7c7ba2f9ad"></div>
+    <h3>HighChart: iframe taken from CLOUD</h3>
+    <iframe class="highcharts-iframe" src="https://cloud.highcharts.com/embed/rkBRRW-M7/"
+    style="border: 0; width: 100%; height: 500px"></iframe>
+</section>
+
+
 <!--Error Popup-->
 <div id="popup">
-    <button type="button" class="close" data-dismiss="modal" aria-label="Close" id="closePopup"><span aria-hidden="true">×</span></button>
+    <button type="button" class="close" data-dismiss="modal" aria-label="Close" id="closePopup"><span
+            aria-hidden="true">×</span></button>
     <p id="popupText"></p>
 </div>
 
+<script src="scripts/js/highChart-exported-1.js"></script>
 </body>
+
 </html>

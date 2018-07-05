@@ -15,7 +15,13 @@
   "license": "ISC",
   "dependencies": {
     "bootstrap": "^v3.3.7",
-    "node-sass": "4.7.2"
+    "d3": "^4.11.0",
+    "enigma.js": "^2.1.1",
+    "node-sass": "4.7.2",
+    "picasso-plugin-hammer": "^0.7.0",
+    "picasso-plugin-q": "^0.7.0",
+    "picasso.js": "^0.7.0",
+    "qdt-components": "^1.1.56"
   },
   "start": "http-server -a localhost -p 8000 -c-1",
   "bugs": {

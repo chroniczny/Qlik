@@ -13,12 +13,17 @@ header.main-header {
     padding: 0 30px;
 }
 
-h3 {
+h2, h3 {
     font-family: "Lato", sans-serif;
     color: #0A9BD6;
 }
 
-main {
+h3 {
+    width: 100%;
+    text-align: center;
+}
+
+main, section {
     padding: 30px;
     display: flex;
     justify-content: space-around;
